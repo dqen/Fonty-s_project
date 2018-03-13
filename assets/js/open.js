@@ -1,4 +1,4 @@
-function open(nummer) {
+function opendiv(nummer) {
     let x = document.getElementById("huren");
     let y = document.getElementById("onderhoud");
     let z = document.getElementById("login");

@@ -1,3 +1,62 @@
 .container{
     display: none;
 }
+
+#huren{
+    position: absolute;
+    width: 80vw;
+    height: 80vh;
+    z-index: 15;
+    top: 130%;
+    margin: 0 0 0 0;
+    background: #2c2c32;
+    opacity: 0.9;
+}
+#login{
+    position: absolute;
+    width: 80vw;
+    height: 80vh;
+    z-index: 15;
+    top: 130%;
+    margin: 0 0 0 0;
+    right: 117px;
+    background: #2c2c32;
+    opacity: 0.9;
+}
+#onderhoud{
+    position: absolute;
+    width: 80vw;
+    height: 80vh;
+    z-index: 15;
+    top: 130%;
+    margin: 0 0 0 0;
+    right: 117px;
+    background: #2c2c32;
+    opacity: 0.9;
+}
+#overons{
+    position: absolute;
+    width: 80vw;
+    height: 80vh;
+    z-index: 15;
+    top: 130%;
+    margin: 0 0 0 0;
+    right: 117px;
+    background: #2c2c32;
+    opacity: 0.9;
+}
+.sluiten{
+    position: relative;
+}
+.sluiten > img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: auto;
+}
+.sluiten > p{
+    position: absolute;
+    top: 25px;
+    right: 3px;
+}
