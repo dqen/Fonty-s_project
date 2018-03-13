@@ -2,16 +2,17 @@
 <html>
 	<head>
 		<title>Van Zuylen</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/index.css" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/index.css">
+		<script src="assets/js/open.js"></script>
 	</head>
 	<body id="top">
-		<section id="banner" data-video="images/Bakfiets_compilation">
+		<section id="banner" data-video="images/Bakfiets_compilation" muted>
 			<div class="inner">
 				<header>
-					<h1>Van Zuylen</h1>
+					<h1 ><img src="images/logo.png" alt="Logo Van Zuylen"></h1>
 					<p>Er was eens…… een oer-Hollands bedrijf met een oer-Hollands product… Van Zuylen bakfietsen. Met de fiets je kroost wegbrengen naar school, Hollandser kan toch niet?</p>
 				</header>
 				<a href="#main" class="more">Learn More</a>
@@ -21,39 +22,39 @@
 			<div class="inner">
 				<div class="thumbnails">
 					<div class="box">
-						<a href="" class="image fit"><img src="images/bakfiets.jpg" alt="" /></a>
+						<a class="image fit"><img src="images/bakfiets.jpg" alt="" /></a>
 						<div class="inner">
 							<h3>Bakfietsen huren/reserveren</h3>
 							<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-							<a href="" class="button style2">Klik hier!</a>
-							<div class="container" >hallo</div>
+							<button onclick="open(1)">Klik hier!</button>
+							<div class="container" id="huren" >hallo</div>
 						</div>
 					</div>
 					<div class="box">
-						<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+						<a class="image fit"><img src="images/login-button1.png" alt="" /></a>
 						<div class="inner">
-							<h3>Nascetur nunc varius commodo</h3>
+							<h3>Log hier in</h3>
 							<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-							<a href="" class="button style2">Klik hier!</a>
-							<div class="container" >hallo</div>
+							<button onclick="open(2)">Klik hier!</button>
+							<div class="container" id="login" >hallo</div>
 						</div>
 					</div>
 					<div class="box">
-						<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+						<a class="image fit"><img src="images/grote-onderhoudsbeurt.jpg" alt="" /></a>
 						<div class="inner">
-							<h3>Nascetur nunc varius commodo</h3>
+							<h3>Informatie bakfietsen</h3>
 							<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-							<a href="" class="button style2">Klik hier!</a>
-							<div class="container" >hallo</div>
+							<button onclick="open(3)">Klik hier!</button>
+							<div class="container" id="onderhoud">hallo</div>
 						</div>
 					</div>
 					<div class="box">
-						<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+						<a class="image fit"><img src="images/header-over-ons.png" alt="" /></a>
 						<div class="inner">
-							<h3>Nascetur nunc varius commodo</h3>
+							<h3>Over ons</h3>
 							<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-							<a href="" class="button style2">Klik hier!</a>
-							<div class="container" >hallo</div>
+							<button onclick="open(4)">Klik hier!</button>
+							<div class="container" id="overons">hallo</div>
 					</div>
 				</div>
 			</div>
