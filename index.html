@@ -6,10 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="stylesheet" href="assets/css/index.css">
-		<script src="assets/js/open.js"></script>
+		
 	</head>
 	<body id="top">
-		<section id="banner" data-video="images/Bakfiets_compilation" muted>
+		<section id="banner" data-video="images/Introductiefilm_Cangoo_bakfietsen_(1)" muted>
 			<div class="inner">
 				<header>
 					<h1 ><img src="images/logo2.png" alt="Logo Van Zuylen" style="height:300px;"></h1>
@@ -18,23 +18,32 @@
 				<a href="#main" class="more">Learn More</a>
 			</div>
 		</section>
+
+		<div class="melding">
+			<p>dit is een melding</p>
+		</div>
+
 		<div id="main">
 			<div class="inner">
 				<div class="thumbnails">
+
 					<div class="box">
 						<a class="image fit"><img src="images/bakfiets.jpg" alt="bakfietsen huren/reserveren" /></a>
 						<div class="inner">
 							<h3>Bakfietsen huren/reserveren</h3>
 							<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
 							<button onclick="opendiv(1)">Klik hier!</button>
+							<!-- pagina nog maken -->
 							<div class="container" id="huren" >
 								<div class="sluiten">
 									<img src="images/crosscloseordeletecircularinterfacebuttonsymbol_87834.png" alt="kruisje" onclick="opendiv(1)"/>
 									<p>sluiten</p>
 								</div>
 							</div>
+							<!-- ________________ -->
 						</div>
 					</div>
+
 					<div class="box">
 						<a class="image fit"><img src="images/login-button1.png" alt="login" /></a>
 						<div class="inner">
@@ -46,9 +55,25 @@
 									<img src="images/crosscloseordeletecircularinterfacebuttonsymbol_87834.png" alt="kruisje" onclick="opendiv(2)" />
 									<p>sluiten</p>
 								</div>
+								<div class="inloggen">
+									<form action="" method="post" >
+										<label for="gebruikersnaam">gebruikersnaam:</label>
+										<input name="gebruikersnaam" type="text">
+										<label for="wachtwoord">wachtwoord:</label>
+										<input name="wachtwoord" type="password">
+										<input type="submit">
+									</form>
+									<div class="links">
+										<!-- pagina's nog maken -->
+										<a onclick="open()">Wachtwoord vergeten?</a><br>
+										<a onclick="open()">Registreren.</a>
+										<!-- __________________ -->
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
+
 					<div class="box">
 						<a class="image fit"><img src="images/grote-onderhoudsbeurt.jpg" alt="onderhoud" /></a>
 						<div class="inner">
@@ -60,9 +85,32 @@
 									<img src="images/crosscloseordeletecircularinterfacebuttonsymbol_87834.png" alt="kruisje" onclick="opendiv(3)"/>
 									<p>sluiten</p>
 								</div>
+								<div class="onderhoud">
+									<table >
+										<tr>
+											<th>Fiets id</th>
+											<th>In onderhoud</th>
+											<th>Onderhoud nodig</th> 
+											<th>Beschikbaar voor gebruik</th>
+										</tr>
+										<tr>
+											<td>1</td>
+											<td>False</td>
+											<td>True</td> 
+											<td>False</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>True</td>
+											<td>False</td> 
+											<td>True</td>
+										</tr>
+									  </table>
+								</div>
 							</div>
 						</div>
 					</div>
+
 					<div class="box">
 						<a class="image fit"><img src="images/header-over-ons.png" alt="over ons" /></a>
 						<div class="inner">
@@ -73,12 +121,17 @@
 								<div class="sluiten">
 									<img src="images/crosscloseordeletecircularinterfacebuttonsymbol_87834.png" alt="kruisje" onclick="opendiv(4	)"/>
 									<p>sluiten</p>
+									<div class="overons">
+										<h2>Over ons</h2>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eius quo sunt. Dolores odit quasi, repudiandae, temporibus ut nemo voluptate vero perferendis molestiae reprehenderit recusandae, obcaecati deserunt sint sapiente voluptates.</p>
+									</div>
 								</div>
 							</div>
+						</div>
 					</div>
+
 				</div>
 			</div>
-		</div>
 		</div>
 		<footer id="footer">
 			<div class="inner">
@@ -99,5 +152,6 @@
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/open.js"></script>
 	</body>
 </html>

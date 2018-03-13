@@ -1,5 +1,6 @@
 .container{
     display: none;
+    border-radius: 10px;
 }
 
 #huren{
@@ -11,7 +12,10 @@
     margin: 0 0 0 0;
     background: #2c2c32;
     opacity: 0.9;
+    animation-name: opacity;
+    animation-duration: 2s;
 }
+
 #login{
     position: absolute;
     width: 80vw;
@@ -22,7 +26,10 @@
     right: 117px;
     background: #2c2c32;
     opacity: 0.9;
+    animation-name: opacity;
+    animation-duration: 2s;
 }
+
 #onderhoud{
     position: absolute;
     width: 80vw;
@@ -33,7 +40,10 @@
     right: 117px;
     background: #2c2c32;
     opacity: 0.9;
+    animation-name: opacity;
+    animation-duration: 2s;
 }
+
 #overons{
     position: absolute;
     width: 80vw;
@@ -44,10 +54,15 @@
     right: 117px;
     background: #2c2c32;
     opacity: 0.9;
+    animation-name: opacity;
+    animation-duration: 2s;
 }
+
 .sluiten{
     position: relative;
+    margin-right: 3%;
 }
+
 .sluiten > img{
     position: absolute;
     top: 0px;
@@ -55,8 +70,87 @@
     width: 50px;
     height: auto;
 }
+
 .sluiten > p{
     position: absolute;
     top: 25px;
     right: 3px;
+}
+
+@keyframes opacity {
+    0%   {opacity: 0.0;}
+    100% {opacity: 0.9;}
+}
+
+.inloggen > form{
+    width: 40vw;
+    font-size: 30px;
+    height: auto;
+}
+
+.inloggen{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    width: 40vw;
+    font-size: 30px;
+    height: auto;
+}
+
+.links > a{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.links > a:hover{
+    color: navy;   
+}
+
+input{
+    margin: 10px;
+    box-shadow: 0 4px 10px 5px  rgba(0, 0, 0, 0.3);
+}
+
+.overons{
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 70vw;
+    padding-top: 40px;
+}
+
+.onderhoud > table{
+    width: 60vw;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.onderhoud{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    overflow: auto;
+}
+
+.melding{
+    width: 100vw;
+    height: 30px;
+    background-color: #202024;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.melding > p{
+    height: 20px;
+    margin: 0 ;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
